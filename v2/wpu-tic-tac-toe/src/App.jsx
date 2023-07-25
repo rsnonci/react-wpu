@@ -1,9 +1,8 @@
-import { useState } from 'react'
 import Square from './components/Square'
 
-function App() {
+function Board() {
   return (
-    <>
+    <div className='board'>
       <Square />
       <Square />
       <Square />
@@ -13,8 +12,8 @@ function App() {
       <Square />
       <Square />
       <Square />
-    </>
+    </div>
   )
 }
 
-export default App
+export default Board

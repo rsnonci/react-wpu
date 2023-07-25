@@ -1,3 +1,11 @@
+import { useState } from 'react'
+
 export default function Square() {
-    return <button className="square">X</button>
+    const [value, setValue] = useState('');
+
+    function handleClick() {
+        setValue('X');
+    }
+
+    return <button className="square" onClick={handleClick}>{value}</button>
 }

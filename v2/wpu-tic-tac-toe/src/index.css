@@ -17,3 +17,10 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 105px;
+  width: 105px;
+}
